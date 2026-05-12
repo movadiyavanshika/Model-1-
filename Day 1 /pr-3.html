@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration</title>
+</head>
+<body>
+
+  <h2>Student Registration</h2>
+
+  <form>
+
+    Name: <input type="text" name="name" /><br><br>
+
+    Enrollment: <input type="number" name="enrollment" maxlength="10" /><br><br>
+
+    Branch:
+    <select name="branch">
+      <option value="">Select Branch</option>
+      <option>Computer Science</option>
+      <option>Information Technology</option>
+      <option>Electronics</option>
+      <option>Mechanical</option>
+      <option>Civil</option>
+      <option>Electrical</option>
+    </select><br><br>
+
+    Division: <input type="text" name="division" maxlength="1" /><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="male" /> Male
+    <input type="radio" name="gender" value="female" /> Female
+    <br><br>
+
+    Mobile No: <input type="tel" name="mobile" maxlength="10" /><br><br>
+
+    Email ID: <input type="email" name="email" /><br><br>
+
+    Password: <input type="password" name="password" /><br><br>
+
+    Photo: <input type="file" name="photo" accept="image/*" /><br><br>
+
+    Remarks:<br>
+    <textarea name="remarks" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Clear" />
+
+  </form>
+
+</body>
+</html>
